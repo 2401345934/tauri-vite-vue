@@ -128,7 +128,7 @@ import content from './components/content.vue'
 import { ConfigProvider, notification } from 'ant-design-vue'
 import { UserOutlined } from '@ant-design/icons-vue'
 // const userInfo = UserStore.getters['userInfo/get']
-const userInfo = {}
+const userInfo :any = {}
 const menuStore = menu()
 const store = theme()
 const colorState = reactive({
